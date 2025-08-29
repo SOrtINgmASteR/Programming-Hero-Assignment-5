@@ -50,4 +50,42 @@ It is useful for dynamically added elements.
 
 `stopPropagation()`
 - Stops the event from bubbling up to parent elements.
-- Example: Click on a button inside a div won’t trigger the div's click event.
+- Example: Click on a button inside a div won’t trigger the div's click event.   
+
+
+## 📋 Task
+
+This project is part of Programming Hero's web development course assignments. The main objectives include:
+- Making a responsive page from figma design.
+- Using semantic HTML & Tailwind CSS elements.
+- The page must be responsive for devices with smaller width
+- Using DOM (Document Object Model) to implement som dynamic behavior to the page.
+
+## 🛠️ Technologies Used
+
+- HTML5
+- Tailwind CSS
+- Daisy UI components
+
+## 🚀 Live Demo
+
+[View Live Demo](https://sortingmaster.github.io/Programming-Hero-Assignment-5/)
+
+
+## 📦 Resources
+
+- Programming Hero Repository Link: `https://github.com/ProgrammingHero1/B12-A5-Emergency-Hotline`
+
+Icons, images & figma design are provided in this repository.
+
+
+## 💻 Installation and Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/SOrtINgmASteR/Programming-Hero-Assignment-3.git
+   ```
+
+2. Open the project folder.
+3. Open `index.html` in your browser.
