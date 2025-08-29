@@ -48,7 +48,35 @@
             card    card    card    history -->
 
     <main class="bg-[#f5fdeb]">
-        <section class="main grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-6">
+        <section class="main grid gap-5 p-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+
+            <!-- History Column (stick to right) -->
+            <div class="history bg-white shadow-md rounded-lg p-4 sm:col-start-2 sm:row-span-10 md:col-start-3 md:row-span-6 lg:col-start-4 lg:row-span-4">
+                <div class="flex justify-between items-center gap-4 mb-5">
+                    <button class="btn btn-active text-2xl font-semibold"><i class="fa-regular fa-clock text-2xl text-gray-500"></i>Call History</button>
+                    <button class="btn btn-success text-xl p-6 bg-green-700 text-white font-semibold rounded-3xl">Clear</button>
+                </div>
+                <div>
+                    <div class="flex justify-between items-center bg-gray-100 p-2 m-2 rounded-2xl">
+                        <div>
+                            <h3 class="text-xl font-semibold">Fire Service Number</h3>
+                            <p class="text-gray-600 text-xl">999</p>
+                        </div>
+                        <div>
+                            <p class="text-xl"><span>11:36:58</span> <span>AM</span></p>
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center bg-gray-100 p-2 m-2 rounded-2xl">
+                        <div>
+                            <h3 class="text-xl font-semibold">Fire Service Number</h3>
+                            <p class="text-gray-600 text-xl">999</p>
+                        </div>
+                        <div>
+                            <p class="text-xl"><span>11:36:58</span> <span>AM</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
             
             <!-- National Emergency Number Card -->
             <div class="card bg-white shadow-md rounded-lg p-5 flex flex-col">
@@ -104,34 +132,7 @@
                 </div>
             </div>
 
-            <!-- History Column (stick to right) -->
-            <div class="history bg-white shadow-md rounded-lg p-4 lg:row-span-4 lg:col-start-4">
-                <div class="flex justify-between items-center gap-4 mb-5">
-                    <button class="btn btn-active text-2xl font-semibold"><i class="fa-regular fa-clock text-2xl text-gray-500"></i>Call History</button>
-                    <button class="btn btn-success text-xl p-6 bg-green-700 text-white font-semibold rounded-3xl">Clear</button>
-                </div>
-                <div>
-                    <div class="flex justify-between items-center border-b-2 border-gray-300 p-4 m-4">
-                        <div>
-                            <h3 class="text-xl font-semibold">Fire Service Number</h3>
-                            <p class="text-gray-600 text-xl">999</p>
-                        </div>
-                        <div>
-                            <p class="text-xl"><span>11:36:58</span> <span>AM</span></p>
-                        </div>
-                    </div>
-                    <div class="flex justify-between items-center border-b-2 border-gray-300 p-4 m-4">
-                        <div>
-                            <h3 class="text-xl font-semibold">Fire Service Number</h3>
-                            <p class="text-gray-600 text-xl">999</p>
-                        </div>
-                        <div>
-                            <p class="text-xl"><span>11:36:58</span> <span>AM</span></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+            
             <!-- Ambulance Service Number Card -->
             <div class="card bg-white shadow-md rounded-lg p-5 flex flex-col">
                 <div class="flex justify-between items-center gap-4 mb-5">
@@ -149,7 +150,7 @@
                     <button class="btn btn-success w-1/2 px-4 py-2 bg-green-700 text-white font-semibold rounded-xl"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
-
+            
             <!-- Women and Child Helpline Number Card -->
             <div class="card bg-white shadow-md rounded-lg p-5 flex flex-col">
                 <div class="flex justify-between items-center gap-4 mb-5">
@@ -168,7 +169,7 @@
                 </div>
             </div>
 
-
+            
             <!-- Anti Corruption Helpline Number Card -->
             <div class="card bg-white shadow-md rounded-lg p-5 flex flex-col">
                 <div class="flex justify-between items-center gap-4 mb-5">
@@ -186,7 +187,7 @@
                     <button class="btn btn-success w-1/2 px-4 py-2 bg-green-700 text-white font-semibold rounded-xl"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
-
+            
 
             <!-- Electricity Helpline Number Card -->
             <div class="card bg-white shadow-md rounded-lg p-5 flex flex-col">
@@ -205,8 +206,8 @@
                     <button class="btn btn-success w-1/2 px-4 py-2 bg-green-700 text-white font-semibold rounded-xl"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
-
-
+            
+            
             <!-- BRAC Number Card -->
             <div class="card bg-white shadow-md rounded-lg p-5 flex flex-col">
                 <div class="flex justify-between items-center gap-4 mb-5">
@@ -224,8 +225,8 @@
                     <button class="btn btn-success w-1/2 px-4 py-2 bg-green-700 text-white font-semibold rounded-xl"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
-
-
+            
+            
             <!-- Bangladesh Railway Helpline Number Card -->
             <div class="card bg-white shadow-md rounded-lg p-5 flex flex-col">
                 <div class="flex justify-between items-center gap-4 mb-5">
