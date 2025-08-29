@@ -15,7 +15,7 @@
 
 </head>
 <body>
-    <header class="flex flex-col max-w-[1550px] mx-auto">
+    <header class="flex flex-col max-w-[1650px] mx-auto">
         <nav class="bg-white flex justify-between items-center p-4 shadow-md">
             <div class="flex items-center">
                 <img src="B12-A5-Emergency-Hotline-main/assets/logo.png" class="w-12 h-12 mr-2">
@@ -24,15 +24,15 @@
             <div class="flex items-center">
                 <div class="flex items-center gap-2 bg-[#acf8bd85] p-3 rounded-2xl ml-2 mr-2">
                     <h3 id="heart-count" class="text-xl font-bold">0</h3>
-                    <img src="B12-A5-Emergency-Hotline-main/assets/heart.png" class="w-6 h-6">
+                    <img src="B12-A5-Emergency-Hotline-main/assets/heart.png" class="w-10 h-10">
                 </div>
                 <div class="flex items-center gap-2 bg-[#acf8bd85] p-3 rounded-2xl ml-2 mr-2">
-                    <h3 id="coin-count" class="text-xl font-bold">0</h3>
-                    <img src="B12-A5-Emergency-Hotline-main/assets/coin.png" class="w-6 h-6">
+                    <h3 id="coin-count" class="text-xl font-bold">100</h3>
+                    <img src="B12-A5-Emergency-Hotline-main/assets/coin.png" class="w-10 h-10">
                 </div>
                 <div class="flex items-center gap-2 bg-[#039e25] p-3 rounded-2xl ml-2 mr-2">
-                    <h3 id="copy-count" class="text-xl font-bold text-white">2</h3>
-                    <h3 class="text-xl font-bold text-white">Copy</h3>
+                    <h3 id="copy-count" class="text-2xl font-bold text-white">2</h3>
+                    <h3 class="text-2xl font-bold text-white">Copy</h3>
                 </div>
                 <div></div>
             </div>
@@ -44,7 +44,7 @@
         </div>
     </header>
 
-    <main class="bg-[#f5fdeb] max-w-[1550px] mx-auto">
+    <main class="bg-[#f5fdeb] max-w-[1650px] mx-auto">
         <section class="main grid gap-5 p-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
 
             <!-- History Column (stick to right) -->
@@ -75,11 +75,12 @@
                 </div>
             </div>
             
+            
             <!-- National Emergency Number Card -->
             <div class="card bg-white shadow-md rounded-lg p-5 flex flex-col">
                 <div class="flex justify-between items-center gap-4 mb-5">
                     <img src="B12-A5-Emergency-Hotline-main/assets/emergency.png" class="w-10 h-10">
-                    <i class="fa-regular fa-heart text-4xl text-gray-500 cursor-pointer transition-transform duration-200 active:scale-75"></i>
+                    <i class="heart-button fa-regular fa-heart text-4xl text-gray-500 cursor-pointer transition-transform duration-200 active:scale-75"></i>
                 </div>
                 <div class="flex flex-col mb-5">
                     <h2 class="text-2xl font-bold">National Emergency Number</h2>
@@ -93,11 +94,12 @@
                 </div>
             </div>
 
+
             <!-- Police HelpLine Number Card -->
             <div class="card bg-white shadow-md rounded-lg p-5 flex flex-col">
                 <div class="flex justify-between items-center gap-4 mb-5">
                     <img src="B12-A5-Emergency-Hotline-main/assets/police.png" class="w-10 h-10">
-                    <i class="fa-regular fa-heart text-4xl text-gray-500 cursor-pointer transition-transform duration-200 active:scale-75"></i>
+                    <i class="heart-button fa-regular fa-heart text-4xl text-gray-500 cursor-pointer transition-transform duration-200 active:scale-75"></i>
                 </div>
                 <div class="flex flex-col mb-5">
                     <h2 class="text-2xl font-bold">Police Helpline Number</h2>
@@ -111,11 +113,12 @@
                 </div>
             </div>
 
+
             <!-- Fire Service Number Card -->
             <div class="card bg-white shadow-md rounded-lg p-5 flex flex-col">
                 <div class="flex justify-between items-center gap-4 mb-5">
                     <img src="B12-A5-Emergency-Hotline-main/assets/fire-service.png" class="w-10 h-10">
-                    <i class="fa-regular fa-heart text-4xl text-gray-500 cursor-pointer transition-transform duration-200 active:scale-75"></i>
+                    <i class="heart-button fa-regular fa-heart text-4xl text-gray-500 cursor-pointer transition-transform duration-200 active:scale-75"></i>
                 </div>
                 <div class="flex flex-col mb-5">
                     <h2 class="text-2xl font-bold">Fire Service Number</h2>
@@ -134,7 +137,7 @@
             <div class="card bg-white shadow-md rounded-lg p-5 flex flex-col">
                 <div class="flex justify-between items-center gap-4 mb-5">
                     <img src="B12-A5-Emergency-Hotline-main/assets/ambulance.png" class="w-10 h-10">
-                    <i class="fa-regular fa-heart text-4xl text-gray-500 cursor-pointer transition-transform duration-200 active:scale-75"></i>
+                    <i class="heart-button fa-regular fa-heart text-4xl text-gray-500 cursor-pointer transition-transform duration-200 active:scale-75"></i>
                 </div>
                 <div class="flex flex-col mb-5">
                     <h2 class="text-2xl font-bold">Ambulance Service Number</h2>
@@ -151,8 +154,8 @@
             <!-- Women and Child Helpline Number Card -->
             <div class="card bg-white shadow-md rounded-lg p-5 flex flex-col">
                 <div class="flex justify-between items-center gap-4 mb-5">
-                    <img src="B12-A5-Emergency-Hotline-main/assets/emergency.png" class="w-10 h-10">
-                    <i class="fa-regular fa-heart text-4xl text-gray-500 cursor-pointer transition-transform duration-200 active:scale-75"></i>
+                    <img src="B12-A5-Emergency-Hotline-main/assets/mother.png" class="w-10 h-10">
+                    <i class="heart-button fa-regular fa-heart text-4xl text-gray-500 cursor-pointer transition-transform duration-200 active:scale-75"></i>
                 </div>
                 <div class="flex flex-col mb-5">
                     <h2 class="text-2xl font-bold">Women and Child Helpline</h2>
@@ -170,8 +173,8 @@
             <!-- Anti Corruption Helpline Number Card -->
             <div class="card bg-white shadow-md rounded-lg p-5 flex flex-col">
                 <div class="flex justify-between items-center gap-4 mb-5">
-                    <img src="B12-A5-Emergency-Hotline-main/assets/emergency.png" class="w-10 h-10">
-                    <i class="fa-regular fa-heart text-4xl text-gray-500 cursor-pointer transition-transform duration-200 active:scale-75"></i>
+                    <img src="B12-A5-Emergency-Hotline-main/assets/institution.png" class="w-10 h-10">
+                    <i class="heart-button fa-regular fa-heart text-4xl text-gray-500 cursor-pointer transition-transform duration-200 active:scale-75"></i>
                 </div>
                 <div class="flex flex-col mb-5">
                     <h2 class="text-2xl font-bold">Anti Corruption Helpline</h2>
@@ -189,8 +192,8 @@
             <!-- Electricity Helpline Number Card -->
             <div class="card bg-white shadow-md rounded-lg p-5 flex flex-col">
                 <div class="flex justify-between items-center gap-4 mb-5">
-                    <img src="B12-A5-Emergency-Hotline-main/assets/emergency.png" class="w-10 h-10">
-                    <i class="fa-regular fa-heart text-4xl text-gray-500 cursor-pointer transition-transform duration-200 active:scale-75"></i>
+                    <img src="B12-A5-Emergency-Hotline-main/assets/power-station.png" class="w-10 h-10">
+                    <i class="heart-button fa-regular fa-heart text-4xl text-gray-500 cursor-pointer transition-transform duration-200 active:scale-75"></i>
                 </div>
                 <div class="flex flex-col mb-5">
                     <h2 class="text-2xl font-bold">Electricity Helpline</h2>
@@ -208,8 +211,8 @@
             <!-- BRAC Number Card -->
             <div class="card bg-white shadow-md rounded-lg p-5 flex flex-col">
                 <div class="flex justify-between items-center gap-4 mb-5">
-                    <img src="B12-A5-Emergency-Hotline-main/assets/emergency.png" class="w-10 h-10">
-                    <i class="fa-regular fa-heart text-4xl text-gray-500 cursor-pointer transition-transform duration-200 active:scale-75"></i>
+                    <img src="B12-A5-Emergency-Hotline-main/assets/brac.png" class="w-10 h-10">
+                    <i class="heart-button fa-regular fa-heart text-4xl text-gray-500 cursor-pointer transition-transform duration-200 active:scale-75"></i>
                 </div>
                 <div class="flex flex-col mb-5">
                     <h2 class="text-2xl font-bold">Brac Helpline</h2>
@@ -227,8 +230,8 @@
             <!-- Bangladesh Railway Helpline Number Card -->
             <div class="card bg-white shadow-md rounded-lg p-5 flex flex-col">
                 <div class="flex justify-between items-center gap-4 mb-5">
-                    <img src="B12-A5-Emergency-Hotline-main/assets/emergency.png" class="w-10 h-10">
-                    <i class="fa-regular fa-heart text-4xl text-gray-500 cursor-pointer transition-transform duration-200 active:scale-75"></i>
+                    <img src="B12-A5-Emergency-Hotline-main/assets/Bangladesh-Railway.png" class="w-10 h-10">
+                    <i class="heart-button fa-regular fa-heart text-4xl text-gray-500 cursor-pointer transition-transform duration-200 active:scale-75"></i>
                 </div>
                 <div class="flex flex-col mb-5">
                     <h2 class="text-2xl font-bold">Bangladesh Railway Helpline</h2>
@@ -243,8 +246,6 @@
             </div>
             
         </section>
-
-
     </main>
 
     <script src="index.js"></script>
