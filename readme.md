@@ -35,4 +35,19 @@ document.body.appendChild(newParagraph);
 
 
 **Question 3:** What is Event Bubbling and how does it work?  
-**Answer:**
+**Answer:** When any element is clicked, the event first happens on that clicked element. Then it “bubbles up” to it's parent, then the parent's parent, and keeps going on, until it reaches the `<body>` and `<html>` tag.  
+    
+  
+**Question 4:** What is Event Delegation in JavaScript? Why is it useful?  
+**Answer:** Event Delegation is when an event listener is being put on a parent element instead of adding many listeners to each child. Because of event bubbling, the parent can "catch" the events from its children.  
+It is useful for dynamically added elements.  
+
+**Question 5:** What is the difference between `preventDefault()` and `stopPropagation()` methods?    
+**Answer:**   
+`preventDefault()`
+- Stops the browser’s default reloading behavior.
+- Example: Prevent a form from submitting.
+
+`stopPropagation()`
+- Stops the event from bubbling up to parent elements.
+- Example: Click on a button inside a div won’t trigger the div's click event.
