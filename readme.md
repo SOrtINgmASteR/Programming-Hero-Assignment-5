@@ -1,7 +1,7 @@
 # 🚀 Programming Hero Assignment 5
 
 
-## Question Answer:
+## ❓❓ Question Answer:
 **Question 1:** What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
 
 **Answer:**   
@@ -84,7 +84,7 @@ Icons, images & figma design are provided in this repository.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/SOrtINgmASteR/Programming-Hero-Assignment-3.git
+   git clone https://github.com/SOrtINgmASteR/Programming-Hero-Assignment-5.git
    ```
 
 2. Open the project folder.
